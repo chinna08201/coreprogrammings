@@ -22,6 +22,8 @@ public class dropDownHandles {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div[text()='Agra']")).click();
 		
+		System.out.println("Dropdown performed ");
+		
 	}
 
 }
