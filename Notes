@@ -1,0 +1,19 @@
+Differences are FindElement and FindElements()
+
+FindElement()              |           FindELements()
+=========================================================
+
+1. Mapped only WebElement  |	Mapped with multiple WebElements 
+
+2. If matches multiple elements      |  It can store multiple elements in LIST
+then it can be selected/chosen first |
+element.
+
+3. When element is not found then |  if the elements are not matching then EMPTY LIST
+elementNotVisible exception appeared|
+
+
+
+SELENIUM Works on W3C protocol it means World Wide Web Consortium webdriver is a remote control interface
+that enables introspection and control of user agents.
+
