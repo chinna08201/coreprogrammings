@@ -18,11 +18,29 @@ public class SwapNumber {
 		
 		//Logic 2 - use + and - Operators to swap
 		
+		/*
 		a=a+b;
 		b=a-b;
 		a=a-b;
 		
 		System.out.println("After swapping "+a+ " "+b);
+		*/
+		
+		
+		//Logic 3 - using * and / operators
+		
+		
+		a=a*b;
+		b=a/b;
+		a=a/b;
+		System.out.println("After swapping "+a+ " "+b);
+		
+		//Logic 4 - Using single statement
+		
+		b=a+b-(a=b);
+		System.out.println("After swapping "+a+ " "+b);
+		
+			
 	}
 }
 		
